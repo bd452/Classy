@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0233E4861F61D30F00AE8933 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E4851F61D30F00AE8933 /* main.c */; };
+		0233E48E1F61D31600AE8933 /* ArrayList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E48C1F61D31600AE8933 /* ArrayList.c */; };
+		0233E4911F61EAC000AE8933 /* cObj.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E48F1F61EAC000AE8933 /* cObj.c */; };
+		0233E4941F61FC6B00AE8933 /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E4921F61FC6B00AE8933 /* String.c */; };
+		0233E4971F6201A400AE8933 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E4951F6201A400AE8933 /* LinkedList.c */; };
+		02FD09511FDF1B5800729ECD /* Dictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FD094F1FDF1B5800729ECD /* Dictionary.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		0233E4821F61D30F00AE8933 /* cArrayList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cArrayList; sourceTree = BUILT_PRODUCTS_DIR; };
 		0233E4851F61D30F00AE8933 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0233E48C1F61D31600AE8933 /* ArrayList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArrayList.c; sourceTree = "<group>"; };
+		0233E48D1F61D31600AE8933 /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
+		0233E48F1F61EAC000AE8933 /* cObj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cObj.c; sourceTree = "<group>"; };
+		0233E4901F61EAC000AE8933 /* cObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cObj.h; sourceTree = "<group>"; };
+		0233E4921F61FC6B00AE8933 /* String.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
+		0233E4931F61FC6B00AE8933 /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		0233E4951F6201A400AE8933 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		0233E4961F6201A400AE8933 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		02FD094F1FDF1B5800729ECD /* Dictionary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dictionary.c; sourceTree = "<group>"; };
+		02FD09501FDF1B5800729ECD /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				0233E4851F61D30F00AE8933 /* main.c */,
+				02FD094F1FDF1B5800729ECD /* Dictionary.c */,
+				02FD09501FDF1B5800729ECD /* Dictionary.h */,
+				0233E48F1F61EAC000AE8933 /* cObj.c */,
+				0233E4901F61EAC000AE8933 /* cObj.h */,
+				0233E4921F61FC6B00AE8933 /* String.c */,
+				0233E4931F61FC6B00AE8933 /* String.h */,
+				0233E4951F6201A400AE8933 /* LinkedList.c */,
+				0233E4961F6201A400AE8933 /* LinkedList.h */,
+				0233E48C1F61D31600AE8933 /* ArrayList.c */,
+				0233E48D1F61D31600AE8933 /* ArrayList.h */,
 			);
 			path = cArrayList;
 			sourceTree = "<group>";
@@ -120,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0233E4941F61FC6B00AE8933 /* String.c in Sources */,
+				02FD09511FDF1B5800729ECD /* Dictionary.c in Sources */,
 				0233E4861F61D30F00AE8933 /* main.c in Sources */,
+				0233E4911F61EAC000AE8933 /* cObj.c in Sources */,
+				0233E4971F6201A400AE8933 /* LinkedList.c in Sources */,
+				0233E48E1F61D31600AE8933 /* ArrayList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +279,7 @@
 				0233E48B1F61D30F00AE8933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
