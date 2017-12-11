@@ -45,13 +45,17 @@ int func(ArrayList, addElement, void* element) {
     self->count++;
     return self->list[count] == element && self->count == count+1;
 }
-
+// 0 1 2 3 4 5 6 7
 int func(ArrayList, removeElement, int index) {
     int count = self->count;
+    free(self->list[index]);
     self->list[count-1] = NULL;
+    for (int i = index; i < self->count - 1; i++) {
+        self->list[i] = self->list[i+1];
+    }
     if (count < self->listSize * 0.75) {
         i$(self, resize, self->listSize * 0.75);
-        ArrayList_resize(self, self->listSize * 0.75);
+//        ArrayList_resize(self, self->listSize * 0.75);
     }
     self->count--;
     return self->list[count-1] == NULL;

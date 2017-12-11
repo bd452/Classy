@@ -31,11 +31,11 @@ int main(int argc, const char * argv[]) {
         int *val = i$(myList, get, k);
         printf("%d: %d \n", k, *val);
     }
-//    for (int k = 999; k > 0; k--) {
-//        i$(myList, removeElement, 0);
-//        int *val = i$(myList, get, k-1);
+    for (int k = 999; k > 0; k--) {
+        i$(myList, removeElement, 0);
+        int *val = i$(myList, get, 0);
 //        printf("%d: %d \n", k, *val);
-//    }
+    }
     
     Dictionary* dict = create(Dictionary);
     
@@ -47,7 +47,7 @@ int main(int argc, const char * argv[]) {
 //    ArrayList *list = ArrayList_new();//c$(ArrayList, new);
 //    var(int, i) = 5;
 //    i$(list, addElement, i);
-
+    i$(dict, destroy);
     
     
     /* code */

@@ -30,7 +30,7 @@ typedef char* charString;
 #define classDef(type) type* type##_##new() { type *self = malloc(sizeof(type));
 #define endDef return self; }
 #define classHead(name) typedef struct name {
-#define endHead(name) } name; name *name##_##new();
+#define endHead(name) } name; name *name##_##new(void);
 #define mImp(type, name) self->name = &type##_##name
 #define vImp(name) self->name
 #define new(x) malloc(sizeof(x));
