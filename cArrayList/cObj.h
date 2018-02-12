@@ -20,6 +20,13 @@ typedef char* charString;
 
 #define assert(val, ...) printf(val, ##__VA_ARGS__);
 
+#define ifn(test) if(test != NULL)
+#define eqn(test, else) test != NULL ? test : else
+
+#define fori(dictionary, varName) ArrayList *keys = Dictionary_keys(dictionary); for (int i = 0; i < dictionary->size; i++)
+
+
+
 #define var(type, name) type *name = malloc(sizeof(type)); *name
 #define $(type) *(type *)
 #define i$(object, methodName, ...) object->methodName(object, ##__VA_ARGS__)

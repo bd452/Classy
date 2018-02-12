@@ -13,5 +13,6 @@
 #include "LinkedList.h"
 #include "ArrayList.h"
 #include "Dictionary.h"
+#include "ClassyClass.h"
 
 #endif /* classy_h */

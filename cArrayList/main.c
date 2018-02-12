@@ -8,49 +8,32 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "ArrayList.h"
-#include "String.h"
-#include "cObj.h"
-#include "Dictionary.h"
+#include "classy.h"
 
+typedef struct newStruct_ {
+    int v1;
+    int v2;
+    int v3;
+} ns;
+obj printArgs(Dictionary *args);
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    ArrayList *myList = c$(ArrayList, new);
-
-    for (int k = 0; k < 1000; k++) {
-        var(int, i) = k;
-        if (k%2) {
-            
-            i$(myList, addElement, i);
-//            myList->addElement(myList, i);
-        } else {
-            i$(myList, addElement, i);
-//            myList->addElement(myList, i);
-        }
-        int *val = i$(myList, get, k);
-        printf("%d: %d \n", k, *val);
-    }
-    for (int k = 999; k > 0; k--) {
-        i$(myList, removeElement, 0);
-        int *val = i$(myList, get, 0);
-//        printf("%d: %d \n", k, *val);
-    }
+//    Class *newClass = Class_createEmpty(NULL, ß("newClass"), NULL);
+    Class *newClass = c$(Class, createEmpty, NULL, ß("newClass"), NULL);
     
-    Dictionary* dict = create(Dictionary);
+    i$(newClass, addInstanceMethod, ß("printArgs"), printArgs);
     
-    String *v = ß("val");
-    i$(dict, put, ß("key1"), ß("value1"));
-    i$(dict, put, ß("key2"), ß("value2"));
-    String *val1 = i$(dict, get, ß("key1"));
-    String *val2 = i$(dict, get, ß("key2"));
-//    ArrayList *list = ArrayList_new();//c$(ArrayList, new);
-//    var(int, i) = 5;
-//    i$(list, addElement, i);
-    i$(dict, destroy);
-    
-    
-    /* code */
+    printf("%d\n", i);
     
     return 0;
+}
+
+obj printArgs(Dictionary *args) {
+    int *val1 = i$(args, get, ß("1"));
+    int *val2 = i$(args, get, ß("2"));
+    
+    int *val3 = new(int);
+    *val3 = *val1 + *val2;
+    return val3;
 }

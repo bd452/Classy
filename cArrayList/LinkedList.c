@@ -16,6 +16,7 @@ classDef(LinkedList)
 
 endDef
 
+
 void func(LinkedList, add, obj data) {
     LinkedListNode *newNode = new(LinkedListNode);
     

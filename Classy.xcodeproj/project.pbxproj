@@ -18,6 +18,8 @@
 		02FD095C1FDF2D6100729ECD /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E4921F61FC6B00AE8933 /* String.c */; };
 		02FD095D1FDF2D6200729ECD /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E4951F6201A400AE8933 /* LinkedList.c */; };
 		02FD095E1FDF2D6400729ECD /* ArrayList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0233E48C1F61D31600AE8933 /* ArrayList.c */; };
+		02FD09621FE07DD400729ECD /* ClassyClass.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FD09601FE07DD400729ECD /* ClassyClass.c */; };
+		02FD09631FE0874800729ECD /* ClassyClass.c in Sources */ = {isa = PBXBuildFile; fileRef = 02FD09601FE07DD400729ECD /* ClassyClass.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		02FD09501FDF1B5800729ECD /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
 		02FD09561FDF2D4B00729ECD /* libClassy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClassy.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FD095F1FDF2E2800729ECD /* classy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classy.h; sourceTree = "<group>"; };
+		02FD09601FE07DD400729ECD /* ClassyClass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ClassyClass.c; sourceTree = "<group>"; };
+		02FD09611FE07DD400729ECD /* ClassyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassyClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +92,13 @@
 			isa = PBXGroup;
 			children = (
 				0233E4851F61D30F00AE8933 /* main.c */,
-				02FD094F1FDF1B5800729ECD /* Dictionary.c */,
 				02FD095F1FDF2E2800729ECD /* classy.h */,
-				02FD09501FDF1B5800729ECD /* Dictionary.h */,
 				0233E48F1F61EAC000AE8933 /* cObj.c */,
 				0233E4901F61EAC000AE8933 /* cObj.h */,
+				02FD09601FE07DD400729ECD /* ClassyClass.c */,
+				02FD09611FE07DD400729ECD /* ClassyClass.h */,
+				02FD094F1FDF1B5800729ECD /* Dictionary.c */,
+				02FD09501FDF1B5800729ECD /* Dictionary.h */,
 				0233E4921F61FC6B00AE8933 /* String.c */,
 				0233E4931F61FC6B00AE8933 /* String.h */,
 				0233E4951F6201A400AE8933 /* LinkedList.c */,
@@ -171,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0233E47D1F61D30F00AE8933 /* Build configuration list for PBXProject "cArrayList" */;
+			buildConfigurationList = 0233E47D1F61D30F00AE8933 /* Build configuration list for PBXProject "Classy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -197,6 +203,7 @@
 				0233E4941F61FC6B00AE8933 /* String.c in Sources */,
 				02FD09511FDF1B5800729ECD /* Dictionary.c in Sources */,
 				0233E4861F61D30F00AE8933 /* main.c in Sources */,
+				02FD09621FE07DD400729ECD /* ClassyClass.c in Sources */,
 				0233E4911F61EAC000AE8933 /* cObj.c in Sources */,
 				0233E4971F6201A400AE8933 /* LinkedList.c in Sources */,
 				0233E48E1F61D31600AE8933 /* ArrayList.c in Sources */,
@@ -208,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FD095D1FDF2D6200729ECD /* LinkedList.c in Sources */,
+				02FD09631FE0874800729ECD /* ClassyClass.c in Sources */,
 				02FD095A1FDF2D5A00729ECD /* Dictionary.c in Sources */,
 				02FD095C1FDF2D6100729ECD /* String.c in Sources */,
 				02FD095E1FDF2D6400729ECD /* ArrayList.c in Sources */,
@@ -366,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0233E47D1F61D30F00AE8933 /* Build configuration list for PBXProject "cArrayList" */ = {
+		0233E47D1F61D30F00AE8933 /* Build configuration list for PBXProject "Classy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0233E4871F61D30F00AE8933 /* Debug */,

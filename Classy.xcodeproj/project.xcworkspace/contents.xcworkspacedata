@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:cArrayList.xcodeproj">
+      location = "self:/Users/Bryce/Xcode/cArrayList/Classy.xcodeproj">
    </FileRef>
 </Workspace>

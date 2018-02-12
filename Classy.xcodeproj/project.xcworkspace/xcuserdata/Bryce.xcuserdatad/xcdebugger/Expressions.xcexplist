@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (**)[20])myList-&gt;list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(String*)$9-&gt;value">
+            </PersistentString>
+            <PersistentString
+               value = "dict-&gt;table[15]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Dictionary_new:Dictionary.c">
+      </ContextState>
+      <ContextState
+         contextName = "Dictionary_put:Dictionary.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "self-&gt;table[index]">
+            </PersistentString>
+            <PersistentString
+               value = "(String*)e-&gt;value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "new_arrayList:ArrayList.c">
+      </ContextState>
+      <ContextState
+         contextName = "ArrayList_resize:ArrayList.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "sizeof(al-&gt;list)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArrayList_addElement:ArrayList.c">
+      </ContextState>
+      <ContextState
+         contextName = "ArrayList_get:ArrayList.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int*)element">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
