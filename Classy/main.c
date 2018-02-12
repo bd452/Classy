@@ -24,8 +24,6 @@ int main(int argc, const char * argv[]) {
     
     i$(newClass, addInstanceMethod, ß("printArgs"), printArgs);
     
-    printf("%d\n", i);
-    
     return 0;
 }
 

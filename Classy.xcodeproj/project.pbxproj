@@ -74,7 +74,7 @@
 		0233E4791F61D30F00AE8933 = {
 			isa = PBXGroup;
 			children = (
-				0233E4841F61D30F00AE8933 /* cArrayList */,
+				0233E4841F61D30F00AE8933 /* Classy */,
 				0233E4831F61D30F00AE8933 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0233E4841F61D30F00AE8933 /* cArrayList */ = {
+		0233E4841F61D30F00AE8933 /* Classy */ = {
 			isa = PBXGroup;
 			children = (
 				0233E4851F61D30F00AE8933 /* main.c */,
@@ -106,7 +106,7 @@
 				0233E48C1F61D31600AE8933 /* ArrayList.c */,
 				0233E48D1F61D31600AE8933 /* ArrayList.h */,
 			);
-			path = cArrayList;
+			path = Classy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
