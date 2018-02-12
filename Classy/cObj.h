@@ -18,6 +18,7 @@ typedef char* charString;
 
 //#define ß(string) string->cString
 
+
 #define assert(val, ...) printf(val, ##__VA_ARGS__);
 
 #define ifn(test) if(test != NULL)
